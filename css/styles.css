@@ -29,8 +29,13 @@ ul {
     padding: 0;
 }
 
+
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .visually-hidden {
@@ -53,7 +58,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    max-width: 320px;
+    max-width: 100%;
 }
 
 img {
@@ -765,4 +770,106 @@ img {
 #user-privacy:checked+.modal-checkbox>.custom-checkbox>.modal-vector {
     fill: #F4F4FD;
     border: none;
+}
+
+@media (min-width: 1158px) {
+    body {
+        max-width: 100%;
+        /* padding: 0 15px; */
+        margin: 0 auto;
+    }
+
+    .header-container {
+        max-height: 72px;
+        padding: 24px 156px;
+        align-items: center;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-nav .logo {
+        padding-top: 24px 0;
+        margin-right: 76px;
+    }
+    
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-contacts {
+        display: block;
+    }
+    
+    .header-links {
+        font-weight: 500;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: block;
+        position: relative;
+        padding: 24px 0;
+    }
+    
+    .header-list>li:first-child>a:after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #404bbf;
+    }
+    
+    .header-list>li:first-child>a {
+        color: #404bbf;
+    }
+    
+    .contacts-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 40px;
+        margin-left: 332px;
+        padding: 24px 0;
+        margin-right: 0;
+    }
+    
+    .contacts-list a {
+        white-space: nowrap;
+    }
+    
+    .head-contact {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-links {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--navy-blue);
+    }
+    
+    .header-links:hover,
+    .header-links:focus {
+        color: var(--ocean)
+    }
+    
+    .header-contacts {
+        font-style: normal;
+    }
+    
+    .head-contact {
+        text-decoration: none;
+        color: var(--slate);
+    }
+    
+    .head-contact:hover,
+    .head-contact:focus {
+        color: var(--ocean)
+    }
 }

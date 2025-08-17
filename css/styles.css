@@ -927,13 +927,11 @@ img {
         gap: 48px;
     }
 
-    .portfolio-photo {
-        height: 280px;
-        object-fit: contain;
-    } 
-
     .portfolio-list-cell {
         width: 288px;
+    }
+
+    .portfolio-container {
         height: 280px;
     }
 }

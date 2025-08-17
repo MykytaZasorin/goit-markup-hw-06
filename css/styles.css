@@ -887,7 +887,7 @@ img {
         display: none;
     }
 
-    .third-tag {
+    .advantages-list .third-tag {
         text-align: center;
         font-weight: 700;
         font-size: 36px;
@@ -895,5 +895,24 @@ img {
 
     .advantages-text {
         font-weight: 500;
+    }
+
+    .profiles {
+        width: 100%;
+        padding: 96px 28px;
+    }
+
+    .profiles-list {
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .profiles-list li {
+        width: 100%;
+    }
+
+    .profiles-container-desc {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

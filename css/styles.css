@@ -898,21 +898,42 @@ img {
     }
 
     .profiles {
-        width: 100%;
+        max-width: 100%;
         padding: 96px 28px;
     }
 
     .profiles-list {
         flex-direction: column;
+        align-items: center;
         gap: 72px;
     }
 
     .profiles-list li {
-        width: 100%;
+        width: 264px;
     }
 
     .profiles-container-desc {
         margin-left: 16px;
         margin-right: 16px;
+    }
+
+    .portfolio {
+        padding: 96px 16px;
+    }
+
+    .portfolio-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .portfolio-photo {
+        height: 280px;
+        object-fit: contain;
+    } 
+
+    .portfolio-list-cell {
+        width: 288px;
+        height: 280px;
     }
 }

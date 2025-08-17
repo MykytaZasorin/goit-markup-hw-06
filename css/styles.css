@@ -934,4 +934,47 @@ img {
     .portfolio-container {
         height: 280px;
     }
+
+    .footer {
+        width: 100%;
+        padding: 96px 16px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .footer-cont-logo {
+        margin: 0;
+    }
+
+    .footer .logo {
+        display: block;
+        text-align: center;
+        height: 24px;
+    }
+
+    .footer-logo-text {
+        max-width: 288px;
+    }
+
+    .footer-social-text {
+        text-align: center;
+    }
+
+    .footer-subscribe {
+        display: block;
+        margin: 0;
+    }
+
+    .footer-subscribe-buttons {
+        display: block;
+    }
+
+    .subscribe-submit {
+        margin: 0 auto;
+    }
 }

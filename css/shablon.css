@@ -1,38 +1,3 @@
-.advantages {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.advantages-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
-
-.advantages-list li {
-    max-width: 264px;
-}
-
-.adv-container {
-    width: 264px;
-    height: 112px;
-    background-color: var(--cloud);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-}
-
-.advantages-list-cell {
-    width: calc((100% - 72px) / 4);
-}
-
-.advantages-list li h3 {
-    margin-bottom: 8px;
-}
-
 /* profiles section */
 
 .profiles {

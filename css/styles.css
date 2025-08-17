@@ -865,4 +865,35 @@ img {
     .main-button {
         margin-top: 72px
     }
+
+    .advantages {
+        max-width: 100%;
+        padding: 96px 16px;
+    }
+
+    .advantages-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .advantages-list li {
+        max-width: 288px;
+    }
+
+    .adv-container {
+        display: none;
+    }
+
+    .third-tag {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .advantages-text {
+        font-weight: 500;
+    }
 }

@@ -979,4 +979,48 @@ img {
     .portfolio-list-cell {
         width: calc((100% - 48px) / 3);
     }
+
+    .footer {
+        padding: 100px 156px;
+    }
+
+    .footer .container {
+        flex-direction: row;
+        align-items: baseline;
+        margin: 0 auto;
+    }
+
+    /* .footer-cont-logo {
+        margin-right: 120px;
+        /* width: 264px; */
+    } */
+
+    .footer .logo {
+        display: inline-block;
+        max-height: 112px;
+        text-align: start;
+    }
+
+    .footer-logo-text {
+        max-width: 264px;
+    }
+
+    .footer-social-text {
+        text-align: start;
+    }
+
+    .footer-subscribe {
+        display: block;
+        margin-left: auto;
+    }
+
+    .footer-subscribe-buttons {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-subscribe-input {
+        display: inline-block;
+        width: 264px;
+    }
 }

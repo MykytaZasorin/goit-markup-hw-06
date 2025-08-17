@@ -990,11 +990,6 @@ img {
         margin: 0 auto;
     }
 
-    /* .footer-cont-logo {
-        margin-right: 120px;
-        /* width: 264px; */
-    } */
-
     .footer .logo {
         display: inline-block;
         max-height: 112px;
@@ -1003,6 +998,10 @@ img {
 
     .footer-logo-text {
         max-width: 264px;
+    }
+
+    .footer-social-cont {
+        margin-left: auto;
     }
 
     .footer-social-text {

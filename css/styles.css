@@ -940,4 +940,43 @@ img {
     .advantages-list li h3 {
         margin-bottom: 8px;
     }
+
+    .profiles {
+        padding: 120px 156px;
+    }
+
+    .profiles .second-tag {
+        margin-bottom: 72px;
+    }
+
+    .profiles-list {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .profiles-list li {
+        width: calc((100% - 72px) /4);
+    }
+
+    .profiles-container-desc {
+        padding: 32px 16px;
+    }
+
+    .portfolio {
+        padding: 120px 156px;
+    }
+
+    .portfolio-list {
+        flex-direction: row;
+        gap: 24px;
+        row-gap: 48px;
+    }
+
+    .portfolio-container {
+        height: auto;
+    }
+
+    .portfolio-list-cell {
+        width: calc((100% - 48px) / 3);
+    }
 }

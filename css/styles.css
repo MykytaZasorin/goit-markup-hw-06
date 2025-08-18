@@ -1318,6 +1318,10 @@ img {
         padding: 120px 0;
     }
 
+    .profiles-img {
+        width: 100%;
+    }
+
     .profiles .container {
         max-width: 1158px;
         margin: 0 auto;

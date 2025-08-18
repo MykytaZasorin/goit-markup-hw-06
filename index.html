@@ -52,9 +52,16 @@
             </li>
           </ul>
         </address>
-        <svg class="burger-menu" width="24" height="24">
-          <use href="./images/icons.svg#icon-burger"></use>
-        </svg>
+        <button
+          type="button"
+          class="burger-menu"
+          data-modal-open="menu"
+          title="menu"
+        >
+          <svg class="burger-header-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -63,7 +70,7 @@
       <section class="main">
         <div class="container">
           <h1 class="main-tag">Effective Solutions for Your Business</h1>
-          <button class="main-button" type="button" data-modal-open>
+          <button class="main-button" type="button" data-modal-open="form">
             Order Service
           </button>
         </div>
@@ -599,7 +606,7 @@
       </div>
     </footer>
     <!-- modal window -->
-    <div class="modal_background" data-modal>
+    <div class="modal_background" data-modal="form">
       <div class="modal-window">
         <button
           class="modal-close"
@@ -698,7 +705,7 @@
 
     <!-- modal_mobile -->
 
-    <div class="modal_menu is-open">
+    <div class="modal_menu" data-modal="menu">
       <div class="modal-menu-mobile">
         <button
           class="modal-mobile-close"
@@ -746,7 +753,7 @@
                 target="_blank"
                 title="instagram"
               >
-                <svg class="svg-profile" width="16" height="16">
+                <svg class="svg-profile" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -758,7 +765,7 @@
                 target="_blank"
                 title="twitter"
               >
-                <svg class="svg-profile" width="16" height="16">
+                <svg class="svg-profile" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -770,7 +777,7 @@
                 target="_blank"
                 title="facebook"
               >
-                <svg class="svg-profile" width="16" height="16">
+                <svg class="svg-profile" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -782,7 +789,7 @@
                 target="_blank"
                 title="linkedin"
               >
-                <svg class="svg-profile" width="16" height="16">
+                <svg class="svg-profile" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>

@@ -110,6 +110,7 @@ img {
     width: 100%;
     padding: 16px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-list {
@@ -124,6 +125,9 @@ img {
     display: block;
     background-color: transparent;
     stroke: black;
+    border: none;
+    margin-right: 0;
+    height: 24px;
 }
 
 /* main section */
@@ -796,7 +800,7 @@ img {
 }
 
 .modal-menu-mobile {
-    padding: 0 24px 40px 16px;
+    padding: 72px 24px 40px 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -823,7 +827,6 @@ img {
     right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
-    margin-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -835,7 +838,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 72px;
+    max-width: 280px;
+    margin: 0 auto;
 }
 
 .mobile-menu-link {

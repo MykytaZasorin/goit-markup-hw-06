@@ -931,8 +931,6 @@ img {
 
     .header-container {
         max-height: 72px;
-        padding: 24px 16px;
-        align-items: center;
     }
 
     .burger-menu {
@@ -1387,3 +1385,4 @@ img {
         display: inline-block;
         width: 264px;
     }
+}

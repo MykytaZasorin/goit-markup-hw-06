@@ -301,7 +301,7 @@ img {
 /* porfolio section */
 
 .portfolio {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .portfolio .second-tag {
@@ -317,12 +317,8 @@ img {
     gap: 48px;
 }
 
-.portfolio-container {
-    height: 280px;
-}
-
 .portfolio-list-cell {
-    width: 288px;
+    max-width: 288px;
 }
 
 .portfolio-list-cell:hover {
@@ -384,7 +380,6 @@ img {
 
 .footer .container {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
